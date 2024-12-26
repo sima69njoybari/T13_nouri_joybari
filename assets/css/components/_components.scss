@@ -1,0 +1,12 @@
+@import "../abstracts/mixins";
+
+.time-box ,.time-today-clock{
+    @include alin-item-center;
+}
+
+.time-box , .time-today-clock
+, .time-today-houre{
+    @include d-flex;
+}
+
+

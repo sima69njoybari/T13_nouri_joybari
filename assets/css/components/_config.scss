@@ -1,0 +1,226 @@
+
+
+body{
+    font-family: pinar;
+    background-color:$dark;
+    background-image: url("../../public/image/mapchart.png"),url("../../public/image/MapChart_Map-1\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+//-----------body-----------
+.date-primery{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: clamp(12px, calc(8px + 1.8vw) ,22px );
+    font-weight: 300;
+}
+
+.time-box .date-Time-guestion .time-today-question{
+    color: $primary;
+    font-size: clamp(8px, calc(5px + 1.8vw) ,18px );
+    padding-bottom:clamp(3px, calc(2px + 1.8vw) ,5px );
+    
+}
+
+.time-box .date-Time-guestion .date-world{
+    font-size: clamp(7px, calc(3px + 1.8vw) ,15px );
+    padding-bottom:clamp(7px, calc(4px + 1.8vw) ,10px );
+}
+
+.time-today-houre ,.time-today-mintues, .time-today-seconds, .colon{
+    font-size: clamp(10px, calc(6px + 1.8vw) ,27px );
+}
+
+.time-today-houre ,.time-today-mintues, .time-today-seconds{
+    color: $primary;
+    background-image:$bg-image-left-gradiant;
+}
+
+.time-box .time-today-clock{
+    padding-left: 10px;
+}
+
+.date-today-shamsi , .date-today-miladi , .date-today-ghamari{
+    padding-top:clamp(9px, calc(6px + 1.8vw) ,18px );
+    padding-bottom:clamp(9px, calc(6px + 1.8vw) ,18px );
+}
+
+.date-today-shamsi , .date-today-miladi{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.date-today-shamsi .date-txt-shamsi , .date-today-miladi .date-txt-english , .date-today-ghamari .date-txt-arabic{
+    font-size: clamp(8px, calc(5px + 1.8vw) ,18px );
+}
+
+.date-today-shamsi .date-num-shamsi , .date-today-miladi .date-num-english , .date-today-ghamari .date-num-arabic{
+    font-size:  clamp(6px, calc(3px + 1.8vw) ,15px );
+    color: $primary;
+}
+
+.sepratore-date{
+    color:$white;
+}
+
+.date-today-ghamari{
+    background-image:$bg-image-left-gradiant;
+    border-image: ($brdr-color-rigth-left)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.next-day{
+    background-image:$bg-image-left-gradiant;
+    border-image: ($brdr-color-rigth-left)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    padding-top:clamp(9px, calc(5px + 1.8vw) ,15px );
+    padding-bottom:clamp(9px, calc(5px + 1.8vw) ,15px );
+}
+
+.befor-day{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    padding-top:clamp(7px, calc(4px + 1.8vw) ,15px );
+    padding-bottom:clamp(7px, calc(4px + 1.8vw) ,15px );
+}
+
+.befor-day a, .next-day a{
+    text-decoration: none;
+    color: $primary;
+    font-size: clamp(10px, calc(7px + 1.8vw) ,18px );
+}
+
+
+
+.discount-box .discount-guestion .time-today-question{
+    color: $primary;
+    font-size: clamp(8px, calc(5px + 1.8vw) ,18px );
+    padding-bottom:clamp(3px, calc(2px + 1.8vw) ,7px );
+    padding-top:clamp(2px, calc(1px + 1.8vw) ,4px );
+    
+}
+
+.discount-box .discount-guestion .description-discount{
+    font-size: clamp(7px, calc(3px + 1.8vw) ,15px );
+    padding-bottom:clamp(7px, calc(4px + 1.8vw) ,20px );
+}
+
+.input-num-box .input-num-txt{
+    font-size: clamp(8px, calc(5px + 1.8vw) ,18px );
+    padding-bottom:clamp(12px, calc(8px + 1.8vw) ,18px );
+}
+
+.input-num-box .enterde-value{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: clamp(8px, calc(5px + 1.8vw) ,12px ); 
+    padding-bottom:clamp(8px, calc(5px + 1.8vw) ,13px );
+    padding-top:clamp(8px, calc(5px + 1.8vw) ,13px );
+}
+.input-num-box .calculate-value .btn-calculate{
+    font-size: clamp(7px, calc(4px + 1.8vw) ,17px );
+    border-radius: 10px; 
+    background-color: $primary;
+    color: $white;
+    border: none;
+}
+
+.persentage-txt{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid; 
+}
+.persentage-txt .num-persentage{
+    font-size: clamp(16px, calc(10px + 1.8vw) ,28px );
+}
+
+.persentage-txt .entered-persentage{
+    font-size: clamp(10px, calc(6px + 1.8vw) ,20px );
+}
+
+.persentage-box .persentage-title{
+    font-size: clamp(8px, calc(5px + 1.8vw) ,18px );
+    padding-bottom:clamp(12px, calc(8px + 1.8vw) ,18px ); 
+}
+
+.persentage-box .persentage-txt{
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid; 
+}
+
+.persentage-box .persentage-txt .align-persentage{
+    font-size: clamp(8px, calc(5px + 1.8vw) ,15px );
+}
+
+.persentage-box .persentage-txt{
+    padding-bottom:clamp(8px, calc(5px + 1.8vw) ,13px );
+    padding-top:clamp(8px, calc(5px + 1.8vw) ,13px );
+}
+
+.persentage-box .persentage-txt .entered-persentage{
+    font-size: clamp(8px, calc(5px + 1.8vw) ,12px );
+}
+
+
+
+//-----------sidebar------------
+.sidebar-box{ 
+    width: 16vw;
+    height: 80vh;
+    overflow: hidden;
+    background-image:$bg-image-right-gradiant;
+    border-image:($brdr-color-left-rigth)1;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid; 
+}
+
+.sidbar-item{
+    font-size: clamp(10px, calc(8px + 1.8vw) ,15px );
+    
+}
+
+.sidbar-item a{
+    color:$white;
+    text-decoration: none;
+
+}
+
+.sidbar-item a:hover{
+ background-color: $primary;
+ border-radius: 5px;
+ color:$white;
+}
+
+.sidbar-item  a .img-svg:hover path{
+    fill: $white;
+}
